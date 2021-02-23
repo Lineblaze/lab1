@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+}
+.flexbox{
+    margin-bottom: 1rem;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+._1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-grow: 1;
+}
+._2 {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-self: flex-end;
+    align-items: flex-end;
+    align-content: flex-start;
+    flex-shrink: 1;
+}
+._3 {
+    flex-direction: column;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    flex-basis: 1000px;
+}
+._4 {
+    flex-direction: column-reverse;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    flex: 1 1 100px
+}
+img{
+    width: 200px;
+    height: 287px;
+}
