@@ -13,31 +13,35 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-self: flex-start;
     align-items: flex-start;
     align-content: flex-start;
-    flex-grow: 1;
+    flex-grow: 1;    
+}
+.self_1{
+    align-self: flex-start;
 }
 ._2 {
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     justify-content: flex-end;
-    align-self: flex-end;
     align-items: flex-end;
     align-content: flex-start;
     flex-shrink: 1;
 }
+.self_2{
+    align-self: flex-end;
+}
 ._3 {
-    flex-direction: column;
     flex-flow: row-reverse wrap;
     justify-content: center;
-    align-self: center;
     align-items: center;
     align-content: center;
     flex-basis: 1000px;
 }
+.self_3{
+    align-self: center;
+}
 ._4 {
-    flex-direction: column-reverse;
     flex-flow: column nowrap;
     justify-content: space-between;
     flex: 1 1 100px
